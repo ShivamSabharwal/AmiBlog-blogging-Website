@@ -1,0 +1,22 @@
+<%- include('partials/header'); -%>
+
+<h1>COMPOSE</h1>
+
+<form action="/compose" method="post">
+  <div class="form-group">
+    <label for="blogTitle">Blog Title</label>
+    <input class="form-control" type="text" id="blogTitle" name="blog">
+    <label for="content">Content</label>
+    <textarea class="form-control" id="content" name="blogContent" rows="3"></textarea>
+
+  </div>
+
+  <button type="submit" name="button" class="btn btn-primary">Publish</button>
+
+</form>
+
+
+
+
+
+<%- include('partials/footer'); -%> <%# header and footer are the file names %>

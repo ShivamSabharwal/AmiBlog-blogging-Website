@@ -1,0 +1,13 @@
+<%- include('partials/header'); -%>
+
+
+<h1> <%= Intro %> </h1>
+
+<a class="btn btn-primary " href="/compose" role="button">Compose</a>
+
+ <% blogs.forEach(function (x) { %>
+    <h2> <%= x.blogTitle %> </h2>
+    <p> <%= x.blogContent.substring(0,100)+ " ..." %>
+     <a href="/blog/<%=x._id%>">Read more</a> </p>
+
+<% }); %>

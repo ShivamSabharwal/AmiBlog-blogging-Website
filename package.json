@@ -1,0 +1,17 @@
+{
+  "name": "blogfinal",
+  "version": "1.0.0",
+  "description": "blogging website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivam Sabharwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  }
+}
